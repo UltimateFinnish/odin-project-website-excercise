@@ -6,15 +6,35 @@ img {
 ul {
     list-style-type: none;
     display: flex;
+    color: #E5e7eb;
+    gap: 12px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 18px;
+    padding: 24px 60px;
     background-color: #1F2937;
+    font-family: Helvetica;
 }
 
 .header_logo {
-    
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.awesome {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.awesome_title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+}
+
+body {
+    margin: 0px;
 }
