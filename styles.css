@@ -1,6 +1,6 @@
 img {
     width: 250px;
-    height: 150px;
+    height: 208px;
 }
 
 ul {
@@ -19,10 +19,12 @@ ul {
 }
 
 .header_logo {
+    display: flex;
     color: white;
     font-size: 24px;
     font-weight: bolder;
     padding: 0px 120px;
+    align-items: center;
 }
 
 .awesome {
@@ -32,19 +34,31 @@ ul {
     padding: 60px 120px;
 }
 
+.awesome_text {
+}
+
 .awesome_title {
     font-size: 48px;
     font-weight: bolder;
-    color: white;
-    padding: 24px;
+    color: #F9FAF8;
+    padding: 0 24px;
 }
 
 .awesome_desc {
     padding: 0px 24px;
+    font-size: 18px;
+    color: #E5e7eb;
 }
 
 button {
     margin: 0px 24px;
+    margin-top: 5px;
+    border-radius: 8px;
+    padding: 8px 24px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: 0px;
 }
 
 body {
