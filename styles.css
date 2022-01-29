@@ -69,3 +69,17 @@ body {
 div {
     font-family: Helvetica;
 }
+
+.info-pics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.random_info {
+    align-self: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
