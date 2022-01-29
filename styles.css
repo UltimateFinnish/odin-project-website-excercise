@@ -8,13 +8,13 @@ ul {
     display: flex;
     color: #E5e7eb;
     gap: 12px;
-}
+    padding-right: 96px; /*120px(to align with picture below)-24px(header padding)=96px*/
+} 
 
 .header {
     display: flex;
     padding: 24px;
     background-color: #1F2937;
-   
     justify-content: space-between;
 }
 
@@ -22,14 +22,14 @@ ul {
     color: white;
     font-size: 24px;
     font-weight: bolder;
+    padding: 0px 120px;
 }
 
 .awesome {
     background-color: #1F2937;
     display: flex;
-  
     justify-content: space-between;
-    padding: 0px 60px;
+    padding: 60px 120px;
 }
 
 .awesome_title {
