@@ -12,10 +12,10 @@ ul {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    padding: 24px 60px;
+    padding: 24px;
     background-color: #1F2937;
-    font-family: Helvetica;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .header_logo {
@@ -25,16 +25,34 @@ ul {
 }
 
 .awesome {
+    padding: 24px;
     background-color: #1F2937;
     display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-left: auto;
 }
 
 .awesome_title {
     font-size: 48px;
     font-weight: bolder;
     color: white;
+    padding: 24px;
+}
+
+.awesome_desc {
+padding: 0px 24px;
+}
+
+button {
+    padding: 0px 24px;
 }
 
 body {
-    margin: 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: column
+}
+div {
+    font-family: Helvetica;
 }
