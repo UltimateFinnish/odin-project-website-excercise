@@ -2,3 +2,19 @@ img {
     width: 250px;
     height: 150px;
 }
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: #1F2937;
+}
+
+.header_logo {
+    
+}
