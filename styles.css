@@ -124,14 +124,20 @@ div {
     gap: 40px;
     background-color: #3882F6;
     padding: 40px 10px;
-    margin: 10px 350px;
-    border-radius: 12px;
+    margin: 100px 350px;
+    border-radius: 8px;
     font-size: 18px;
 }
 
 .sign_up_left{
     display: flex;
     flex-direction: column;
+    color: #F9FAF8;
+}
+
+.sign_up_left .action {
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .sign_up button {
@@ -141,4 +147,15 @@ div {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 8px 24px;
+    font-weight: 900;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 48px 0;
+    color: #F9FAF8;
+    font-size: 18px;
 }
